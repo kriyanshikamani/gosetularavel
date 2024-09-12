@@ -1,0 +1,52 @@
+{
+  "menu": [
+    {
+      "url":"admin/dashboard",
+      "name": "Dashboard",
+      "badgeClass": "badge badge-light-warning rounded-pill ms-auto me-1",
+      "icon": "home",
+      "slug": ""
+      
+    },
+    {
+      "url": "admin/user",
+      "name": "User",
+      "icon": "user",
+      "slug": "admin/user"
+    },
+    {
+      "url": "admin/business",
+      "name": "Business Listing",
+      "icon": "briefcase",
+      "slug": "admin/business",
+      "submenu": [
+        {
+          "url": "admin/business/add-business",
+          "name": "Add Business",
+          "icon": "circle",
+          "slug": "admin/business/add-business"
+        },
+        {
+          "url": "admin/view",
+          "name": "Business Listing",
+          "icon": "circle",
+          "slug": "admin/business"
+        }
+      ]
+    },
+    {
+      "url": "admin/feedback",
+      "name": "Feedback",
+      "icon": "message-circle",
+      "slug": "admin/feedback"
+      
+    },
+    {
+      "url": "admin/category",
+      "name": "Categories",
+      "icon": "grid",
+      "slug": ""
+    }
+    
+  ]
+}
